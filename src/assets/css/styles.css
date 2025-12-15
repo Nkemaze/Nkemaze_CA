@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header{
+    padding: 5px;
+}
+
+.header { 
+    background:white; 
+    color: #fff; 
+}
+
+.nav { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.nav a { 
+    color: black; 
+    margin-left: 2rem; 
+    text-decoration: none; 
+}
+
+.icon{ 
+    background-color: #351C15;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logo span { 
+    color: #f59e0b; 
+}
+
+.icon-sub{
+    color: black;
+    margin-left: -30%;
+}
+
+.btn_main{
+    background-color: #351C15;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn_main a{
+    color: white;
+}
+
+.hero { 
+    background: url('../images/hero_image.jpeg') center/cover; 
+    height: 70vh; 
+    text-align: center;
+}
+
+.dack { 
+    background: rgba(0,0,0,0.6); 
+    height: 100%; 
+    display: flex; 
+    align-items: center;
+}
+
+.hero-content { 
+    color: #fff; 
+    max-width: 700px; 
+}
+
+.hero-content span { 
+    color: #f59e0b; 
+}
+
+.hero-title{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.hero-parag{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.btn { 
+    padding: 0.7rem 1.2rem; 
+    border: 1px solid #351C15; 
+    background: transparent; 
+    color: #fff; 
+    background-color: #351C15;
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+.btn.primary { 
+    background: white;
+    border: none; 
+    color: #000; 
+}
+
+.actions { 
+    display: flex; 
+    gap: 1rem; 
+    margin-top: 1rem; 
+    justify-content: center;
+}
+
+.info { 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.features .card img{
+    width: 200px;
+    height: auto;
+} 
+
+.texts h3{
+    padding-top: 15px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.texts p{
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.sevice-title{
+    text-align: center;
+    padding: 20px;
+}
+
+.services h2{
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.services p {
+    font-size: 15px;
+}
+
+.cards{
+    margin-top: 10px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.cards .card{
+    text-align: center;
+}
+
+.cards .card .icons{
+    display: flex;
+    justify-content: center;
+}
+
+.card .link{
+    padding: 10px;
+}
+
+.link a{
+    text-decoration: none;
+    color: #1a0f0a;
+    font-weight: 500;
+}
+
+.container2 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 3rem 7rem;
+}
+
+.footer {
+  background: #351C15;
+  color: #e5e5e5;
+}
+
+.footer-1 {
+  text-align: center;
+  padding: 4rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-1 h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-1 p {
+  color: #cfcfcf;
+  margin-bottom: 1.5rem;
+}
+
+.btn-1 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background: #fff;
+  color: #2b1a12;
+  border: none;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+
+.footer-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.footer-col h4 {
+  color: #f59e0b;
+  margin-bottom: 1rem;
+}
+
+.footer-col a {
+  display: block;
+  color: #e5e5e5;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+.footer-col a:hover {
+  color: #f59e0b;
+}
+
+.logo span {
+  color: #f59e0b;
+}
+
+.socials i {
+  margin-right: 0.6rem;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.9rem;
+}
+
+.legal a {
+  margin-left: 1rem;
+  color: #cfcfcf;
+  text-decoration: none;
+}
+
+.legal a:hover {
+  color: #f59e0b;
+}
