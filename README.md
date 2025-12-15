@@ -6,7 +6,7 @@
 
 ---
 
-## 📂 Component Breakdown
+## Component Breakdown
 
 The project is organized into the following components/pages:
 
@@ -47,14 +47,14 @@ npm start
 This will start the React app locally at [http://localhost:3000]
 
 
-## 🔗 Navigation & Routing
+## Navigation & Routing
 
 The project uses **React Router v7**:
 
 * `/` – Home page
 * `/about` – About page
 
-## 🎯 Features
+##  Features
 
 * Component-based architecture for easy maintenance
 * Client-side routing with React Router
