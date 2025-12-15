@@ -17,7 +17,7 @@ function Hero() {
             </div>
         </section>
         <section className="stats">
-            <div style={{backgroundColor:"#22120cff", padding:"10px"}}>
+            <div style={{backgroundColor:"#22120cff", padding:"10px", textAlign:"center", color:"white"}}>
                 <p>Special Offer: 20% off on international shipping! | Fast & Reliable Worldwide Delivery | Track your packages in real-time | 24/7 Customer Support</p>
             </div>
             <div className="info">

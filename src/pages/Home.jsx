@@ -74,38 +74,6 @@ function Home() {
             </div>
         </section>
 
-      {/* Why Choose Us */}
-      {/* <section className="why container">
-        <h2>Why Choose Us</h2>
-        <div className="grid-4">
-          <div className="card">Global Network</div>
-          <div className="card">Secure Shipping</div>
-          <div className="card">24/7 Support</div>
-          <div className="card">Real-time Tracking</div>
-        </div>
-      </section> */}
-
-      {/* How It Works */}
-      {/* <section className="how">
-        <h2>How It Works</h2>
-        <div className="container grid-4">
-          <div className="step">Request Quote</div>
-          <div className="step">Book Shipment</div>
-          <div className="step">Package Pickup</div>
-          <div className="step">Fast Delivery</div>
-        </div>
-      </section> */}
-
-      {/* Testimonials */}
-      {/* <section className="testimonials container">
-        <h2>What Our Clients Say</h2>
-        <div className="grid-3">
-          <div className="card">"Excellent service!"</div>
-          <div className="card">"Fast and reliable."</div>
-          <div className="card">"Highly recommended."</div>
-        </div>
-      </section> */}
-
         <Footer />
     </div>
   );
